@@ -11,7 +11,7 @@ let day = weekday[currentDate.getUTCDay()];
 
 // const currentDay = currentDate.getUTCDay()
 const currentHour = currentDate.getUTCHours()
-const currentMinutes = currentDate.getUTCMinutes()
+const currentMinutes = currentDate.getUTCMilliseconds()
 
 document.body.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML = day;
-document.body.querySelector('[data-testid="currentUTCTime"]').innerHTML = `(UTC ${currentHour}: ${currentMinutes})` + ' ' + ' West Central Africa';
+document.body.querySelector('[data-testid="currentUTCTime"]').innerHTML = `(UTC Time: ${currentMinutes})` + ' ' + ' in milliseconds';
