@@ -109,7 +109,7 @@
   .weekAndTime,
   [data-testid='myTrack'],
   [data-testid='githubURL'] {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -119,9 +119,7 @@
     height: 80vh;
     padding: 2rem;
   }
-  [data-testid='slackUserName'] {
-    /* font-size: 60px; */
-  }
+
   [data-testid='slackDisplayImage'] {
     width: 70%;
   }
